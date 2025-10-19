@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Tabla de Multiplicaciones con Razor";
+    // Definimos el rango máximo para la tabla (del 1 al 12)
+    int maximo = 12;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabla de Multiplicaciones (1x1 a 12x10)</h1>
+
+    <table>
+
+        @for (int i = 1; i <= maximo; i++)
+        {
+            <tr>
+                @for (int j = 1; j <= 10; j++)
+                {
+                    // Cada celda contiene la operación y el resultado
+                    <td>
+                        @i * @j = @(i* j)
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+
+    <hr />
+
+    @Html.ActionLink("Volver al Listado de Productos", "ListadoProductos", "Productos")
+</body>
+</html>

@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\",
+  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B902A1A0-B6A3-4024-B1EC-FD712B15B6CF}|Ejemplo\\Ejemplo.csproj|c:\\users\\jlbarrionuevo\\desktop\\sistemas-gesti-n-empresarial\\ejemplo\\ejemplo\\views\\filete\\empanado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B902A1A0-B6A3-4024-B1EC-FD712B15B6CF}|Ejemplo\\Ejemplo.csproj|solutionrelative:ejemplo\\views\\filete\\empanado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Productos\\ListadoProductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejemplo\\Views\\Productos\\ListadoProductos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B902A1A0-B6A3-4024-B1EC-FD712B15B6CF}|Ejemplo\\Ejemplo.csproj|c:\\users\\jlbarrionuevo\\desktop\\sistemas-gesti-n-empresarial\\ejemplo\\ejemplo\\controllers\\filetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B902A1A0-B6A3-4024-B1EC-FD712B15B6CF}|Ejemplo\\Ejemplo.csproj|solutionrelative:ejemplo\\controllers\\filetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Filete\\Empanado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejemplo\\Views\\Filete\\Empanado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejemplo\\Controllers\\ProductosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejemplo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\FileteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejemplo\\Controllers\\FileteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ListadoProductos.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Productos\\ListadoProductos.cshtml",
+              "RelativeDocumentMoniker": "Ejemplo\\Views\\Productos\\ListadoProductos.cshtml",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Productos\\ListadoProductos.cshtml",
+              "RelativeToolTip": "Ejemplo\\Views\\Productos\\ListadoProductos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T10:57:50.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Ejemplo\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Ejemplo\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T10:56:47.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Empanado.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Filete\\Empanado.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Filete\\Empanado.cshtml",
               "RelativeDocumentMoniker": "Ejemplo\\Views\\Filete\\Empanado.cshtml",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Filete\\Empanado.cshtml",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Views\\Filete\\Empanado.cshtml",
               "RelativeToolTip": "Ejemplo\\Views\\Filete\\Empanado.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-15T12:28:27.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Ejemplo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Ejemplo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T10:56:50.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FileteController.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\FileteController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\FileteController.cs",
               "RelativeDocumentMoniker": "Ejemplo\\Controllers\\FileteController.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\FileteController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Ejemplo\\Ejemplo\\Controllers\\FileteController.cs",
               "RelativeToolTip": "Ejemplo\\Controllers\\FileteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:26:54.392Z",
               "EditorCaption": ""

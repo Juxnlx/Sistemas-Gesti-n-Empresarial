@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div>
+        <h1>¡Hola Mundo! 👋</h1>
+        <p>Esta es la vista Index del controlador Home.</p>
+
+        <hr />
+
+        @Html.ActionLink("Ver Listado de Productos", "ListadoProductos", "Productos")
+    </div>
+</body>
+</html>

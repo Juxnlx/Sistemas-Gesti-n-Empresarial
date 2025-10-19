@@ -1,0 +1,37 @@
+﻿@{
+    // 1. Obtener la fecha y hora actual usando C#
+    DateTime horaActual = DateTime.Now;
+
+    // 2. Establecer el título de la página
+    ViewData["Title"] = "Hora Actual con Razor";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <h1>Lógica y Hora en Razor</h1>
+
+    <p>
+        Hola, son las **@horaActual.ToString("HH:mm")**
+    </p>
+
+    <hr />
+
+    @if (horaActual.Hour >= 12)
+    {
+        // El bloque HTML se ejecuta si la condición es verdadera
+        <p>¡Sí, hemos pasado de las 12 del mediodía!</p>
+    }
+    else
+    {
+        // El bloque HTML se ejecuta si la condición es falsa
+        <p>No, aún no son las 12 del mediodía.</p>
+    }
+
+    @* @Html.ActionLink("Ver Listado de Productos", "ListadoProductos", "Productos") *@
+</body>
+</html>
