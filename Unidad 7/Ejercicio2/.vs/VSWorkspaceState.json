@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ejercicio2",
+    "\\Ejercicio2\\Controllers",
+    "\\Ejercicio2\\Models",
+    "\\Ejercicio2\\Models\\DAL",
+    "\\Ejercicio2\\Models\\Entities",
+    "\\Ejercicio2\\Views",
+    "\\Ejercicio2\\Views\\Home"
+  ],
+  "SelectedNode": "\\Ejercicio2\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,21 @@
+﻿@* Ruta: Views/Home/Index.cshtml (Modificado) *@
+@model Ejercicio1.Models.Entities.clsPersona
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido al Ejercicio 1</h1>
+    <p>Paso de datos a la vista usando **ViewData**, **ViewBag** y **Modelo**.</p>
+
+    <p>
+        Ir a: <strong>@Html.ActionLink("Listado de Personas", "ListadoPersonas", "Home")</strong>
+    </p>
+</div>
+
+<h2>@ViewData["Saludo"]</h2>
+<p>Fecha actual (ViewBag): <strong>@ViewBag.FechaActual</strong></p>
+<hr />
+<h3>Datos Personales (Modelo)</h3>
+<ul>
+    <li><strong>ID:</strong> @Model.id</li>
+    <li><strong>Nombre:</strong> @Model.nombre</li>
+    <li><strong>Edad:</strong> @Model.edad</li>
+</ul>

@@ -5,13 +5,22 @@
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-<h2>@ViewData["Saludo"]</h2>
+<h2>@ViewData["Saludo"]</h2> 
 
-<p>Fecha actual: @ViewData.Fecha</p>
+<p>Fecha actual (ViewBag): <strong>@ViewBag.FechaActual</strong></p> 
 
-<h3>Datos personales</h3>
+<hr />
+
+<h3>Datos Personales (Modelo)</h3>
 
 <ul>
-    <li><strong>Nombre:</strong>@Model.nombre</li>
-    <li><strong>Edad:</strong>@Model.nombre</li>
+    <li>
+        <strong>ID:</strong> @Model.id
+    </li>
+    <li>
+        <strong>Nombre:</strong> @Model.nombre
+    </li>
+    <li>
+        <strong>Edad:</strong> @Model.edad
+    </li>
 </ul>

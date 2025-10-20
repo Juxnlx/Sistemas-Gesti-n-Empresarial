@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using Ejercicio1.Models.Entities;
-using System.Data; 
 
 namespace Ejercicio1.Controllers
 {
@@ -9,13 +8,10 @@ namespace Ejercicio1.Controllers
     {
         public IActionResult Index()
         {
-            int hora = DataSetDateTime.Now.Hour;
-            string saludo;
-            clsPersona persona;
-
             DateTime ahora = DateTime.Now;
             int hora = ahora.Hour;
 
+            // 1. ViewData: Saludo según la hora actual
             string saludo;
             if (hora >= 6 && hora < 12)
             {
@@ -31,13 +27,23 @@ namespace Ejercicio1.Controllers
             }
             ViewData["Saludo"] = saludo;
 
+            // 2. ViewBag: Fecha actual en formato largo
             ViewBag.FechaActual = ahora.ToLongDateString();
 
-            clsPersona miPersona = new clsPersona(1, "JuanLuis", 20);
+            // 3. Modelo: Objeto clsPersona con datos personales
+            clsPersona miPersona = new clsPersona(
+                id: 1,
+                nombre: "Juan Luis",
+                edad: 20
+            );
 
+            // Se devuelve la vista y se le pasa el modelo
             return View(miPersona);
         }
 
-        public IActionResult Privacy() { }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 }

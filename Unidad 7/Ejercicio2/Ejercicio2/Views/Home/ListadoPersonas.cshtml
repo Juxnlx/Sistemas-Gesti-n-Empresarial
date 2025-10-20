@@ -1,0 +1,31 @@
+@* Ruta: Views/Home/ListadoPersonas.cshtml (NUEVO ARCHIVO) *@
+@model List<Ejercicio1.Models.Entities.clsPersona>
+
+    <h1>Listado de Personas (Ejercicio 2)</h1>
+    <p>Tabla generada a partir de la lista de objetos 'clsPersona' enviada por el controlador.</p>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOMBRE</th>
+                <th>EDAD</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var persona in Model)
+        {
+            <tr>
+                <td>@persona.id</td>
+                <td>@persona.nombre</td>
+                <td>@persona.edad</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <hr />
+
+    <p>
+        <strong>@Html.ActionLink("Volver a la vista Index", "Index", "Home")</strong>
+    </p>

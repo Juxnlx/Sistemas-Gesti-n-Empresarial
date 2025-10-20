@@ -1,0 +1,26 @@
+@* Ruta: Views/Home/ListadoPersonas.cshtml (Modificación) *@
+@model List<Ejercicio1.Models.Entities.clsPersona>
+
+    <h1>Listado de Personas</h1>
+    <table class="table table-bordered table-striped">
+        <tbody>
+            @foreach (var persona in Model)
+        {
+            <tr>
+                <td>@persona.id</td>
+                <td>@persona.nombre</td>
+                <td>@persona.edad</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <hr />
+
+    <p>
+        Ir a: <strong>@Html.ActionLink("Ver Detalle de la 3ª Persona", "DetallePersona", "Home")</strong>
+    </p>
+
+    <p>
+        <strong>@Html.ActionLink("Volver a la vista Index", "Index", "Home")</strong>
+    </p>
