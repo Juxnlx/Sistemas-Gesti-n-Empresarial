@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ejercicio4",
+    "\\Ejercicio4\\bin\\Debug\\net9.0",
+    "\\Ejercicio4\\Models",
+    "\\Ejercicio4\\Models\\DAL",
+    "\\Ejercicio4\\Models\\Entities",
+    "\\Ejercicio4\\Views",
+    "\\Ejercicio4\\Views\\Home"
+  ],
+  "SelectedNode": "\\Ejercicio4\\Views\\_ViewStart.cshtml",
+  "PreviewInSolutionExplorer": false
+}

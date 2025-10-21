@@ -2,12 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Ejercicio3",
-    "\\Ejercicio3\\Controllers",
     "\\Ejercicio3\\Models",
-    "\\Ejercicio3\\Models\\DAL",
     "\\Ejercicio3\\Views",
     "\\Ejercicio3\\Views\\Home"
   ],
-  "SelectedNode": "\\Ejercicio3\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\Ejercicio3\\Controllers",
   "PreviewInSolutionExplorer": false
 }

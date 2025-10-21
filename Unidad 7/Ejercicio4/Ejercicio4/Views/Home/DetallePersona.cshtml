@@ -1,0 +1,28 @@
+@* Ruta: Views/Home/DetallePersona.cshtml (NUEVO ARCHIVO) *@
+@model Ejercicio1.Models.Entities.clsPersona // <<<< ¡DECLARADO COMO OBJETO ÚNICO!
+
+<h1>Detalle de Persona Seleccionada (Posición 3)</h1>
+<p>Esta persona fue extraída del listado de la capa DAL.</p>
+
+<hr />
+
+<h3>Datos de @Model.nombre</h3>
+
+<ul>
+    <li>
+        <strong>ID:</strong> @Model.id
+    </li>
+    <li>
+        <strong>Nombre:</strong> @Model.nombre
+    </li>
+    <li>
+        <strong>Edad:</strong> @Model.edad
+    </li>
+</ul>
+
+<hr />
+
+<p>
+    **<a asp-action="ListadoPersonas">Volver al Listado</a>** |
+    **<a asp-action="Index">Volver a Index</a>**
+</p>

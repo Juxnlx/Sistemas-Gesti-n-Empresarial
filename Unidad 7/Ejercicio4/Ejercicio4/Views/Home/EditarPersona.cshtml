@@ -1,0 +1,51 @@
+@model Ejercicio1.Models.Entities.clsPersona
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Editar Persona";
+}
+
+<h1>Editar Persona (ID: @Model.id)</h1>
+<hr />
+
+<form method="post" asp-action="EditarPersona">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    @Html.HiddenFor(model => model.id)
+
+    <div class="form-group">
+        <label asp-for="nombre"></label>
+        @Html.TextBoxFor(model => model.nombre, new { @class = "form-control" })
+        <span asp-validation-for="nombre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="edad"></label>
+        @Html.TextBoxFor(model => model.edad, new { @class = "form-control", type = "number" })
+        <span asp-validation-for="edad" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="idDepartamento"></label>
+       
+        @Html.DropDownListFor(
+            model => model.idDepartamento,
+            (SelectList)ViewData["ListadoDepartamentos"],
+            "--- Seleccione un departamento ---",
+            new { @class = "form-control" }
+        )
+    </div>
+
+    <br />
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">
+            Guardar
+        </button>
+        <small class="text-muted">(Este botón no realiza ninguna tarea en el servidor)</small>
+    </div>
+</form>
+
+<hr />
+<a asp-action="Index">Volver a la página principal</a>

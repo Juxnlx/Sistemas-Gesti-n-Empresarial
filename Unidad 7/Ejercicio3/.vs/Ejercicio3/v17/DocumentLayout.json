@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\Ejercicio3\\Ejercicio3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ejercicio3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\Ejercicio3\\Ejercicio3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Ejercicio3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T19:13:39.91Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -55,8 +42,7 @@
               "RelativeToolTip": "Ejercicio3\\Models\\DAL\\clsListado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T19:11:50.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T19:11:50.781Z"
             },
             {
               "$type": "Document",
@@ -68,8 +54,7 @@
               "RelativeToolTip": "Ejercicio3\\Views\\Home\\ListadoPersonas.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T19:08:54.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T19:08:54.369Z"
             },
             {
               "$type": "Document",
@@ -79,10 +64,22 @@
               "RelativeDocumentMoniker": "Ejercicio3\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\Ejercicio3\\Ejercicio3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Ejercicio3\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswD4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T19:07:31.958Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\Ejercicio3\\Ejercicio3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\Ejercicio3\\Ejercicio3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ejercicio3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-20T19:13:39.91Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Ejercicio3\\Views\\Home\\DetallePersona.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T19:08:22.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T19:08:22.583Z"
             }
           ]
         }
