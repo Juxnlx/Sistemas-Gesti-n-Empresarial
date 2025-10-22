@@ -44,6 +44,7 @@ namespace Ejercicio1.Models.Entities
         #region Constructores
         public clsPersona() { }
 
+
         // Constructor para edición (4 argumentos)
         public clsPersona(int id, string nombre, int edad, int idDepartamento)
         {
@@ -59,6 +60,15 @@ namespace Ejercicio1.Models.Entities
             _id = id;
             _nombre = nombre;
             _edad = edad;
+        }
+
+        // Constructor para edición (4 argumentos)
+        public clsPersona(int id, string nombre, int edad, int idDepartamento)
+        {
+            this._id = 0;
+            this._nombre = "";
+            this._edad = 0;
+            this._idDepartamento = 0;
         }
         #endregion
     }

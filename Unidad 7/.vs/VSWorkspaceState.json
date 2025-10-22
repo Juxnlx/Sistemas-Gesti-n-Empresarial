@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ejercicio4",
+    "\\Ejercicio4\\Ejercicio4",
+    "\\Ejercicio4\\Ejercicio4\\Controllers",
+    "\\Ejercicio4\\Ejercicio4\\Models",
+    "\\Ejercicio4\\Ejercicio4\\Models\\DAL",
+    "\\Ejercicio4\\Ejercicio4\\Models\\Entities",
+    "\\Ejercicio4\\Ejercicio4\\Models\\ViewModel",
+    "\\Ejercicio4\\Ejercicio4\\Views",
+    "\\Ejercicio4\\Ejercicio4\\Views\\Home"
+  ],
+  "SelectedNode": "\\Ejercicio4\\Ejercicio4\\Models\\DAL\\clsListado.cs",
+  "PreviewInSolutionExplorer": false
+}

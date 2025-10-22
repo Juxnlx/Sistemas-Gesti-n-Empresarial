@@ -29,5 +29,10 @@ namespace Ejercicio4.Models.DAL
                 new clsDepartamento(4, "Recursos Humanos")
             };
         }
+
+        
+        public static clsPersona GetPersona(int posicion) {
+            return GetPersona()[posicion];
+        }
     }
 }
