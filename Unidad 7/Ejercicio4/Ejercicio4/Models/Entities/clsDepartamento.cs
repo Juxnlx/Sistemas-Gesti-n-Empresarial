@@ -1,4 +1,4 @@
-namespace Ejercicio1.Models.Entities
+00namespace Ejercicio1.Models.Entities
 {
     public class clsDepartamento
     {
