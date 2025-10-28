@@ -1,0 +1,10 @@
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.csproj.AssemblyReference.cache
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.AssemblyInfoInputs.cache
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.AssemblyInfo.cs
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.csproj.CoreCompileInputs.cache
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.RazorAssemblyInfo.cache
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.RazorAssemblyInfo.cs
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 7\ListadoPersonasClean\UI\obj\Debug\net8.0\UI.sourcelink.json

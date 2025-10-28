@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Application",
+    "\\Application\\Interfaces",
+    "\\Application\\Services",
+    "\\Data",
+    "\\Data\\Repositories",
+    "\\Domain",
+    "\\Domain\\Entities",
+    "\\Domain\\Interfaces",
+    "\\UI"
+  ],
+  "SelectedNode": "\\UI\\Controllers\\PersonController.cs",
+  "PreviewInSolutionExplorer": false
+}

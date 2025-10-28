@@ -2,13 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Ejercicio4",
-    "\\Ejercicio4\\Controllers",
     "\\Ejercicio4\\Models",
     "\\Ejercicio4\\Models\\DAL",
     "\\Ejercicio4\\Models\\Entities",
-    "\\Ejercicio4\\Models\\ViewModel",
-    "\\Ejercicio4\\Views",
-    "\\Ejercicio4\\Views\\Home"
+    "\\Ejercicio4\\Models\\ViewModel"
   ],
   "SelectedNode": "\\Ejercicio4\\Models\\Entities\\clsPersona.cs",
   "PreviewInSolutionExplorer": false
