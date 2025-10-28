@@ -5,6 +5,7 @@ namespace ListadoPersonasClean.Application.Interfaces
 {
     public interface IPersonService
     {
-        IEnumerable<Person> GetAllPersons();
+        List<Person> GetAllPersons();
     }
 }
+

@@ -1,5 +1,6 @@
 using ListadoPersonasClean.Domain.Entities;
 using ListadoPersonasClean.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace ListadoPersonasClean.Infrastructure.Repositories
@@ -8,14 +9,12 @@ namespace ListadoPersonasClean.Infrastructure.Repositories
     {
         private readonly List<Person> _people = new()
         {
-            new Person { Id = 1, Name = "Ana", Age = 25 },
-            new Person { Id = 2, Name = "Luis", Age = 30 },
-            new Person { Id = 3, Name = "Marta", Age = 22 }
+            new Person(1, "Ana", "García", new DateTime(1998,5,12)),
+            new Person(2, "Luis", "Pérez", new DateTime(1995,8,22)),
+            new Person(3, "Marta", "López", new DateTime(2000,1,30))
         };
 
-        public IEnumerable<Person> GetAll()
-        {
-            return _people;
-        }
+        public List<Person> GetAllPersons() => _people;
     }
 }
+

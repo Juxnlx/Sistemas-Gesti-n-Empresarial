@@ -1,9 +1,9 @@
-using PeopleApp.Application.Interfaces;
-using PeopleApp.Domain.Entities;
-using PeopleApp.Domain.Interfaces;
+using ListadoPersonasClean.Application.Interfaces;
+using ListadoPersonasClean.Domain.Entities;
+using ListadoPersonasClean.Domain.Interfaces;
 using System.Collections.Generic;
 
-namespace PeopleApp.Application.Services
+namespace ListadoPersonasClean.Application.Services
 {
     public class PersonService : IPersonService
     {
@@ -14,9 +14,10 @@ namespace PeopleApp.Application.Services
             _personRepository = personRepository;
         }
 
-        public IEnumerable<Person> GetAllPersons()
+        public List<Person> GetAllPersons()
         {
-            return _personRepository.GetAll();
+            return _personRepository.GetAllPersons();
         }
     }
 }
+

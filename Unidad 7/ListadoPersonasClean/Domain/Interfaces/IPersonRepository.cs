@@ -1,10 +1,11 @@
 using ListadoPersonasClean.Domain.Entities;
 using System.Collections.Generic;
 
-namespace PeopleApp.Domain.Interfaces
+namespace ListadoPersonasClean.Domain.Interfaces
 {
     public interface IPersonRepository
     {
-        IEnumerable<Person> GetAll();
+        List<Person> GetAllPersons();
     }
 }
+

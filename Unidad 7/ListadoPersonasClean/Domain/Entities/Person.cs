@@ -2,29 +2,24 @@ namespace ListadoPersonasClean.Domain.Entities
 {
     public class Person
     {
-        // Propiedades
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
+        public string LastName { get; set; }
+        public DateTime BirthDate { get; set; }
 
         // Constructor por defecto
-        public Person()
-        {
-        }
+        public Person() { }
 
         // Constructor con parámetros
-        public Person(int id, string name, int age)
+        public Person(int id, string name, string lastName, DateTime birthDate)
         {
             Id = id;
             Name = name;
-            Age = age;
+            LastName = lastName;
+            BirthDate = birthDate;
         }
 
-        // Métodos opcionales de la entidad
-        public string GetInfo()
-        {
-            return $"Id: {Id}, Name: {Name}, Age: {Age}";
-        }
-
+        public string GetFullName() => $"{Name} {LastName}";
     }
 }
+

@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ListadoPersonasClean.Application.Interfaces;
+using ListadoPersonasClean.Domain.Entities;
+using System.Collections.Generic;
 
 namespace ListadoPersonasClean.UI.Controllers
 {
@@ -14,9 +16,10 @@ namespace ListadoPersonasClean.UI.Controllers
 
         public IActionResult Index()
         {
-            var people = _personService.GetAllPersons();
-            return View(people);
+            List<Person> people = _personService.GetAllPersons();
+            return View(people); // Por ahora la vista se deja vacía
         }
     }
 }
+
 
