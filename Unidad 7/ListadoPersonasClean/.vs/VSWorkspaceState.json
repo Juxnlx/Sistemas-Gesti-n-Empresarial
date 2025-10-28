@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Application",
     "\\Application\\Interfaces",
     "\\Application\\Services",
     "\\Data",
@@ -11,6 +10,6 @@
     "\\Domain\\Interfaces",
     "\\UI"
   ],
-  "SelectedNode": "\\UI\\Controllers\\PersonController.cs",
+  "SelectedNode": "\\Domain\\Entities\\Person.cs",
   "PreviewInSolutionExplorer": false
 }
