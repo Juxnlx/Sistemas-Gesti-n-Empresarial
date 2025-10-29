@@ -5,6 +5,8 @@ namespace ListadoPersonasCA.Domain.Interfaces
 {
     public interface IPersonaRepositoryUseCase
     {
-        List<Persona> GetListaPersonas();
+       public List<Persona> getListaPersonas(); {
+        
+        }
     }
 }

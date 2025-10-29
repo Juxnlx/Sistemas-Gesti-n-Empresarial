@@ -3,7 +3,7 @@ using ListadoPersonasCA.Domain.Interfaces;
 using ListadoPersonasCA.Domain.Repositories;
 using System.Collections.Generic;
 
-namespace ListadoPersonasCA.Domain.UseCases
+namespace Domain.UseCases
 {
     public class PersonaRepositoryUseCase : IPersonaRepositoryUseCase
     {
@@ -14,7 +14,7 @@ namespace ListadoPersonasCA.Domain.UseCases
         {
             _personaRepository = personaRepository;
         }
-
+        
         public List<Persona> GetListaPersonas()
         {
             return _personaRepository.GetListaPersonas();

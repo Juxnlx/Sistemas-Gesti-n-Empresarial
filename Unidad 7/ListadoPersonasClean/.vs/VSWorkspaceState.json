@@ -4,13 +4,13 @@
     "\\Data",
     "\\Data\\Repositories",
     "\\Domain",
-    "\\Domain\\Entities",
-    "\\Domain\\Interfaces",
     "\\Domain\\Repositories",
     "\\Domain\\UseCases",
     "\\UI",
-    "\\UI\\Controllers"
+    "\\UI\\Controllers",
+    "\\UI\\Views",
+    "\\UI\\Views\\Home"
   ],
-  "SelectedNode": "\\UI\\Program.cs",
+  "SelectedNode": "\\ListadoPersonasClean.sln",
   "PreviewInSolutionExplorer": false
 }

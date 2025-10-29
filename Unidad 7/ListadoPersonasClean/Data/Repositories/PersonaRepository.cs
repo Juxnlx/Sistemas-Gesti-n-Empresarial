@@ -6,7 +6,7 @@ namespace ListadoPersonasCA.Data.Repositories
 {
     public class PersonaRepository : IPersonaRepository
     {
-        public List<Persona> GetListaPersonas()
+        public static List<Persona> GetListaPersonas()
         {
             return new List<Persona>
             {

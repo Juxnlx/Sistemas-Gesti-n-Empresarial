@@ -15,7 +15,7 @@ namespace ListadoPersonasCA.UI.Controllers
         public IActionResult Index()
         {
             var personas = _personaUseCase.GetListaPersonas();
-            return View(personas); // cuando tengas la vista lista
+            return View(personas);
         }
     }
 }
