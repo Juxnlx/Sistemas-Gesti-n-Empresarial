@@ -1,17 +1,21 @@
-﻿using Data.PersonaRepository;
-using Domain.Repositories;
+﻿using Data.Repositories;
+using Domain.Interfaces;
+using Domain.Repos;
+using Domain.UseCases;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extension.DependencyInjection;
-using ListadoPersonasCA.Domain.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+using System.Runtime.CompilerServices;
 
 namespace CompositionRoot
 {
     public static class Containers
     {
-        public static IServiceCollection CompositionRoot(this IServiceCollection service, IConfiguration configuration);
+        public static IServiceCollection AddCompositionRoute(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddScoped<IPersonaRepository, Data.Repositories.PersonaRepository>();
-            services.AddScoped<IPersonaRepositoryUseCase, Domain.UseCases.PersonaRepositoryUseCase>();
+            services.AddScoped<IGetListaPersonas, RepoPersonas>();
+            services.AddScoped<IGetListaPersonasUseCase, DefGetListaPersonasUseCase>();
+
+            return services;
         }
     }
 }

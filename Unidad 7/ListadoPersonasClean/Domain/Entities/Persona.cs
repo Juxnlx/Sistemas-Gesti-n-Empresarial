@@ -1,23 +1,41 @@
-namespace ListadoPersonasCA.Domain.Entities
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Entities
 {
     public class Persona
     {
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Apellidos { get; set; }
-        public DateTime FechaNacimiento { get; set; }
+        #region atributos privados
+        private int _id;
+        private string _nombre;
+        private string _apellido;
 
-        public Persona() { }
-
-        public Persona(int id, string nombre, string apellidos, DateTime fechaNacimiento)
+        #endregion
+        #region getters y setters
+        public int id { get { return _id; } }
+        public string nombre
         {
-            Id = id;
-            Nombre = nombre;
-            Apellidos = apellidos;
-            FechaNacimiento = fechaNacimiento;
+            get { return _nombre; }
+            set { _nombre = value; }
+        }
+        public string apellido
+        {
+            get { return _apellido; }
+            set { _apellido = value; }
+        }
+        #endregion
+        #region constructores
+        public Persona() { }
+        public Persona(int id, string nombre, string apellido)
+        {
+            _id = id;
+            _nombre = nombre;
+            _apellido = apellido;
         }
 
-        public int Edad => DateTime.Now.Year - FechaNacimiento.Year -
-            (DateTime.Now.DayOfYear < FechaNacimiento.DayOfYear ? 1 : 0);
+        #endregion
     }
 }

@@ -1,14 +1,19 @@
+using Domain.Entities;
+using Domain.Repositories;
 using ListadoPersonasCA.Domain.Entities;
-using ListadoPersonasCA.Domain.Repositories;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ListadoPersonasCA.Data.Repositories
+namespace Data.Repositories
 {
-    public class PersonaRepositoryEmpty : IPersonaRepository
+    public class RepoVacio : IGetListaPersonas
     {
-        public List<Persona> GetListaPersonas()
+        public Persona[] getListaPersonas()
         {
-            return new List<Persona>(); // lista vacía
+            return [];
         }
     }
 }

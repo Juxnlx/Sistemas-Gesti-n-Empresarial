@@ -1,21 +1,35 @@
-using ListadoPersonasCA.Domain.Interfaces;
+using Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using UI.Models;
 
-namespace ListadoPersonasCA.UI.Controllers
+namespace UI.Controllers
 {
     public class PersonaController : Controller
     {
-        private readonly IPersonaRepositoryUseCase _personaUseCase;
+        private readonly ILogger<PersonaController> _logger;
+        private readonly IGetListaPersonasUseCase _useCaseListaPersonas;
 
-        public PersonaController(IPersonaRepositoryUseCase personaUseCase)
+        public PersonaController(ILogger<PersonaController> logger, IGetListaPersonasUseCase useCaseListaPersonas)
         {
-            _personaUseCase = personaUseCase;
+            _logger = logger;
+            _useCaseListaPersonas = useCaseListaPersonas;
         }
 
         public IActionResult Index()
         {
-            var personas = _personaUseCase.GetListaPersonas();
-            return View(personas);
+            return View(_useCaseListaPersonas.getListaPersonas());
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
