@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nzRp6ffO+5E=",
+  "dgSpecHash": "doOgd1VARSE=",
   "success": true,
   "projectFilePath": "C:\\Users\\jlbarrionuevo\\Desktop\\2º DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\CompositionRoot\\CompositionRoot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
