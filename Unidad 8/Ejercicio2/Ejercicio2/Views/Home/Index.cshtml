@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Introduce tu nombre</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <p>
+        <label>Nombre:</label>
+        <input type="text" name="nombre" />
+    </p>
+    <p>
+        <input type="submit" value="Enviar" />
+    </p>
+}
+

@@ -1,32 +1,22 @@
-using System.Diagnostics;
-using Ejercicio1.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ejercicio1.Controllers
+namespace TuProyecto.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        // Acción principal: muestra la página inicial
+        public ActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        // Acción Saludo: recibe el nombre por query string
+        public ActionResult Saludo(string nombre)
         {
+            ViewBag.Nombre = nombre;
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
+
+

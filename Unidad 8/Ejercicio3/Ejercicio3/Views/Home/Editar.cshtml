@@ -1,0 +1,43 @@
+﻿@model Ejercicio3.Models.clsPersona
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar persona</h2>
+
+@using (Html.BeginForm("Editar", "Home", FormMethod.Post))
+{
+    <p>
+        <!-- 1️⃣ Input HTML clásico -->
+        <label>IdPersona:</label>
+        <input type="text" name="IdPersona" value="@Model.IdPersona" />
+    </p>
+
+    <p>
+        <!-- 2️⃣ Input con Html.TextBox -->
+        <label>Nombre:</label>
+        @Html.TextBox("Nombre", Model.Nombre)
+    </p>
+
+    <p>
+        <!-- 3️⃣ Input con Html.TextBoxFor -->
+        <label>Apellidos:</label>
+        @Html.TextBoxFor(m => m.Apellidos)
+    </p>
+
+    <p>
+        <!-- El resto con TextBoxFor -->
+        <label>Edad:</label>
+        @Html.TextBoxFor(m => m.Edad)
+    </p>
+
+    <p>
+        <label>Ciudad:</label>
+        @Html.TextBoxFor(m => m.Ciudad)
+    </p>
+
+    <p>
+        <input type="submit" value="Guardar cambios" />
+    </p>
+}

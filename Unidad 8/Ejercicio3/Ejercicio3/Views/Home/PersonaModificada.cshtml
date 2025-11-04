@@ -1,0 +1,20 @@
+﻿@model Ejercicio3.Models.clsPersona
+
+@{
+    ViewBag.Title = "Persona Modificada";
+}
+
+<h2>Datos modificados</h2>
+
+<ul>
+    <li><strong>Id:</strong> @Model.IdPersona</li>
+    <li><strong>Nombre:</strong> @Model.Nombre</li>
+    <li><strong>Apellidos:</strong> @Model.Apellidos</li>
+    <li><strong>Edad:</strong> @Model.Edad</li>
+    <li><strong>Ciudad:</strong> @Model.Ciudad</li>
+</ul>
+
+<p>
+    @Html.ActionLink("Volver a editar", "Editar", "Home")
+</p>
+

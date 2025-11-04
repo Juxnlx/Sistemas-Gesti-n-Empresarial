@@ -1,8 +1,9 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "Index";
 }
 
-<div class="text-center">
-    
-    @Html.ActionLink("Ejercicio1", "")
-</div>
+<h2>Página principal</h2>
+
+<!-- Enlace a la acción Saludo, pasando tu nombre -->
+@Html.ActionLink("Ir al saludo", "Saludo", "Home", new { nombre = "TuNombre" }, null)
+
