@@ -1,19 +1,20 @@
 using Domain.Entities;
-using Domain.Repositories;
-using ListadoPersonasCA.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Domain.UseCases.Interfaces;
 
-namespace Data.Repositories
+namespace DATA.Repositories
 {
-    public class RepoVacio : IGetListaPersonas
+    public class PeopleRepositoryEmpty : IPersonaRepository
     {
-        public Persona[] getListaPersonas()
+        /// <summary>
+        /// Función que nos devuelve un listado vacío de personas
+        /// pre: none
+        /// post: el listado está vacío
+        /// </summary>
+        /// <returns>Listado vacío de personas</returns>
+        public List<Persona> getPeopleListRep()
         {
-            return [];
+            // Devuelve una lista vacía
+            return new List<Persona>();
         }
     }
 }

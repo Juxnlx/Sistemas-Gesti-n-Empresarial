@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\",
+  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|solutionrelative:ui\\views\\persona\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18A61CD9-8BE3-414C-AD1B-53E9855D6AC9}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\compositionroot\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18A61CD9-8BE3-414C-AD1B-53E9855D6AC9}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18A61CD9-8BE3-414C-AD1B-53E9855D6AC9}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A61CD9-8BE3-414C-AD1B-53E9855D6AC9}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|solutionrelative:ui\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8B178CE-0FF3-4670-B02F-959705F1DE8D}|UI\\UI.csproj|solutionrelative:ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\igetlistapersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DAD5FDF-5CA6-45C7-9031-AB81DF3D1294}|Data\\Data.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\data\\repositories\\personarepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DAD5FDF-5CA6-45C7-9031-AB81DF3D1294}|Data\\Data.csproj|solutionrelative:data\\repositories\\personarepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igetlistapersonasusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\usecases\\personalistusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\personalistusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 7\\listadopersonasclean\\domain\\usecases\\interfaces\\ipersonalistusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E702D2F2-FC80-4424-979A-65A355C9C7D3}|Domain\\Domain.csproj|solutionrelative:domain\\usecases\\interfaces\\ipersonalistusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,106 +46,106 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\CompositionRoot\\Class1.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\Class1.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\CompositionRoot\\Class1.cs",
-              "RelativeToolTip": "CompositionRoot\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:24:22.623Z",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T18:09:09.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Program.cs",
-              "RelativeDocumentMoniker": "UI\\Program.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Program.cs",
-              "RelativeToolTip": "UI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T12:15:32Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Persona\\Index.cshtml",
+              "RelativeDocumentMoniker": "UI\\Views\\Persona\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Persona\\Index.cshtml",
+              "RelativeToolTip": "UI\\Views\\Persona\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T18:07:45.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-30T08:41:48.263Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:49:31.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Controllers\\PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "UI\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\UI\\Controllers\\PersonaController.cs",
               "RelativeToolTip": "UI\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:41:30.588Z",
+              "WhenOpened": "2025-11-04T18:05:22.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Domain\\Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-30T08:40:34.823Z",
+              "DocumentIndex": 2,
+              "Title": "DI.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\CompositionRoot\\DI.cs",
+              "RelativeToolTip": "CompositionRoot\\DI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:56:43.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IGetListaPersonas.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Repositories\\IGetListaPersonas.cs",
-              "RelativeDocumentMoniker": "Domain\\Repositories\\IGetListaPersonas.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Repositories\\IGetListaPersonas.cs",
-              "RelativeToolTip": "Domain\\Repositories\\IGetListaPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PersonaRepository100.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Data\\Repositories\\PersonaRepository100.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PersonaRepository100.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Data\\Repositories\\PersonaRepository100.cs",
+              "RelativeToolTip": "Data\\Repositories\\PersonaRepository100.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:39:56.799Z",
+              "WhenOpened": "2025-11-04T17:55:40.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IGetListaPersonasUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IGetListaPersonasUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PersonaListUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\UseCases\\PersonaListUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaListUseCase.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\UseCases\\PersonaListUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonaListUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:39:51.07Z",
+              "WhenOpened": "2025-11-04T17:54:33.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\Entities\\Persona.cs",
-              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
+              "Title": "IPersonaListUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\UseCases\\Interfaces\\IPersonaListUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\Interfaces\\IPersonaListUseCase.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 7\\ListadoPersonasClean\\Domain\\UseCases\\Interfaces\\IPersonaListUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCases\\Interfaces\\IPersonaListUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T08:39:32.551Z",
+              "WhenOpened": "2025-11-04T17:53:55.024Z",
               "EditorCaption": ""
             }
           ]

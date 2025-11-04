@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Domain",
-    "\\UI",
     "\\UI\\Views",
     "\\UI\\Views\\Home"
   ],
-  "SelectedNode": "\\UI\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\ListadoPersonasClean.sln",
   "PreviewInSolutionExplorer": false
 }

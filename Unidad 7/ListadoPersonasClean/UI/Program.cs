@@ -1,14 +1,13 @@
-using ListadoPersonasCA.Domain.Interfaces;
-using ListadoPersonasCA.Domain.Repositories;
+using CompositionRoot;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<IGetListaPersonas, IGetListaPersonas>();
-
-
+// IMPORTANTE: Añadir esta línea ANTES de var app = builder.Build();
+// Esto resuelve las inyecciones de dependencias configuradas en CompositionRoot
+builder.Services.AddCompositionRoot(builder.Configuration);
 
 var app = builder.Build();
 
@@ -16,7 +15,10 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
+
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
