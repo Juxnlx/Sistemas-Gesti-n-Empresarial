@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Data",
+    "\\Data\\Repositories",
+    "\\Domain",
+    "\\Domain\\UseCases",
+    "\\Domain\\UseCases\\Interfaces",
+    "\\UI",
     "\\UI\\Views",
-    "\\UI\\Views\\Home"
+    "\\UI\\Views\\Home",
+    "\\UI\\Views\\Persona"
   ],
-  "SelectedNode": "\\ListadoPersonasClean.sln",
+  "SelectedNode": "\\UI\\bin",
   "PreviewInSolutionExplorer": false
 }
