@@ -1,4 +1,4 @@
-namespace Mandaloriano.Models
+namespace Mandaloriano.UI.Models
 {
     public class ErrorViewModel
     {

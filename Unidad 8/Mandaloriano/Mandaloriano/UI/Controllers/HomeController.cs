@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Mandaloriano.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Mandaloriano.Controllers
+namespace Mandaloriano.UI.Controllers
 {
     public class HomeController : Controller
     {
