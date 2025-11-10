@@ -1,8 +1,29 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model Mandaloriano.UI.Models.IndexVM
+
+<h2>Misiones disponibles para Mando</h2>
+
+@if (!string.IsNullOrEmpty(Model.MensajeError))
+{
+    <p style="color:red;">@Model.MensajeError</p>
+}
+else
+{
+    <form method="post" action="/Mision/VerDetalles">
+        <label for="id">Selecciona una misión:</label>
+        <select id="id" name="id">
+            @foreach (var m in Model.ListadoDeMisiones)
+            {
+                <option value="@m.Id">@m.Nombre</option>
+            }
+        </select>
+        <button type="submit">Ver detalles</button>
+    </form>
+
+    @if (Model.MisionSeleccionada != null)
+    {
+        <h3>@Model.MisionSeleccionada.Nombre</h3>
+        <p>@Model.MisionSeleccionada.Descripcion</p>
+        <p><strong>Recompensa:</strong> @Model.MisionSeleccionada.Recompensa créditos</p>
+    }
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
