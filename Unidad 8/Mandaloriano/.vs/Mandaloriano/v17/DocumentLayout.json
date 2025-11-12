@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\",
+  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 8\\mandaloriano\\mandaloriano\\ui\\controllers\\misioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\mandaloriano\\mandaloriano\\ui\\controllers\\misioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|solutionrelative:mandaloriano\\ui\\controllers\\misioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 8\\mandaloriano\\mandaloriano\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\mandaloriano\\mandaloriano\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AD1A48D-D5C2-4DC2-8A03-B8A67755CAFE}|Mandaloriano\\Mandaloriano.csproj|solutionrelative:mandaloriano\\domain\\entities\\mision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Mision.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\Domain\\Entities\\Mision.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\Domain\\Entities\\Mision.cs",
               "RelativeDocumentMoniker": "Mandaloriano\\Domain\\Entities\\Mision.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\Domain\\Entities\\Mision.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\Domain\\Entities\\Mision.cs",
               "RelativeToolTip": "Mandaloriano\\Domain\\Entities\\Mision.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:54:30.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T16:54:30.484Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MisionController.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\UI\\Controllers\\MisionController.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\UI\\Controllers\\MisionController.cs",
               "RelativeDocumentMoniker": "Mandaloriano\\UI\\Controllers\\MisionController.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\UI\\Controllers\\MisionController.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Mandaloriano\\Mandaloriano\\UI\\Controllers\\MisionController.cs",
               "RelativeToolTip": "Mandaloriano\\UI\\Controllers\\MisionController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T17:56:08.581Z",
               "EditorCaption": ""
