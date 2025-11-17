@@ -3,7 +3,6 @@
     "",
     "\\Data",
     "\\Data\\Repositories",
-    "\\Domain",
     "\\Domain\\UseCases",
     "\\Domain\\UseCases\\Interfaces",
     "\\UI",
@@ -11,6 +10,6 @@
     "\\UI\\Views\\Home",
     "\\UI\\Views\\Persona"
   ],
-  "SelectedNode": "\\UI\\bin",
+  "SelectedNode": "\\ListadoPersonasClean.sln",
   "PreviewInSolutionExplorer": false
 }

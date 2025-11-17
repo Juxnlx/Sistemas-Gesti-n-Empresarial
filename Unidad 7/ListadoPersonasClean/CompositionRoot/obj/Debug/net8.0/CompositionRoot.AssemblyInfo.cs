@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompositionRoot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb910a56fcd53696a17970ed676bad30dd545a9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4795499567a3289a64acf36e143f1f1f8025dbb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompositionRoot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompositionRoot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
