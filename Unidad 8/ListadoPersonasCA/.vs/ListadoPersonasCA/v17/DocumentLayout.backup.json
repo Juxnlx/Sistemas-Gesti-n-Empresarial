@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32581ACF-FF15-4465-B138-B5C0F235E5CC}|Data\\Data.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\listadopersonasca\\data\\repositories\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32581ACF-FF15-4465-B138-B5C0F235E5CC}|Data\\Data.csproj|solutionrelative:data\\repositories\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32581ACF-FF15-4465-B138-B5C0F235E5CC}|Data\\Data.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\listadopersonasca\\data\\database\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32581ACF-FF15-4465-B138-B5C0F235E5CC}|Data\\Data.csproj|solutionrelative:data\\database\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F018CE4A-B918-42FA-93A3-02CEF4F57ECA}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\listadopersonasca\\compositionroot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F018CE4A-B918-42FA-93A3-02CEF4F57ECA}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonasRepositoryAzure.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "RelativeToolTip": "Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:30:29.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\Data\\DataBase\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\DataBase\\Connection.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\Data\\DataBase\\Connection.cs",
+              "RelativeToolTip": "Data\\DataBase\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:29:38.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Container.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\CompositionRoot\\Container.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\Container.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\CompositionRoot\\Container.cs",
+              "RelativeToolTip": "CompositionRoot\\Container.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:21:35.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

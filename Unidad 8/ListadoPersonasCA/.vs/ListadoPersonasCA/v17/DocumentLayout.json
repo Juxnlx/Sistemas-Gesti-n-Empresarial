@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F018CE4A-B918-42FA-93A3-02CEF4F57ECA}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 8\\listadopersonasca\\compositionroot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F018CE4A-B918-42FA-93A3-02CEF4F57ECA}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Container.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\CompositionRoot\\Container.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\Container.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\ListadoPersonasCA\\CompositionRoot\\Container.cs",
+              "RelativeToolTip": "CompositionRoot\\Container.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:37:46.479Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
