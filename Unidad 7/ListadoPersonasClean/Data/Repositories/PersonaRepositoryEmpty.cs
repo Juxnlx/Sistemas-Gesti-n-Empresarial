@@ -1,20 +1,30 @@
 using Domain.Entities;
-using Domain.UseCases.Interfaces;
+using Domain.Interfaces;
+using Domain.Repositories;
 
-namespace DATA.Repositories
+namespace Data.Repositories
 {
-    public class PeopleRepositoryEmpty : IPersonaRepository
+    class PersonaRepositoryEmpty : IPersonaRepository
     {
         /// <summary>
-        /// Función que nos devuelve un listado vacío de personas
-        /// pre: none
-        /// post: el listado está vacío
+        /// Método sin parámetros que se encarga de simular una llamada
+        /// a una API o BBDD. ç
         /// </summary>
-        /// <returns>Listado vacío de personas</returns>
-        public List<Persona> getPeopleListRep()
+        /// <returns>Una lista vacía</returns>
+        private List<Persona> ListaPersonasEmpty()
         {
-            // Devuelve una lista vacía
-            return new List<Persona>();
+
+            return [];
+
+        }
+
+        /// <summary>
+        /// Método que sirve para devolver un listado de personas
+        /// </summary>
+        /// <returns></returns>
+        public List<Persona> getListaPersonas()
+        {
+            return ListaPersonasEmpty();
         }
     }
 }
