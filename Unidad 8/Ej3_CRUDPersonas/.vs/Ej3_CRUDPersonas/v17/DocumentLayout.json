@@ -1,41 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\",
+  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ej3_CRUDPersonas\\Controllers\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\DepartamentoRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCases\\DepartamentoRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\PersonaRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCases\\PersonaRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConNombreDepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\dto\\PersonaConNombreDepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConListadoDepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\dto\\PersonaConListadoDepartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\Repositories\\IPersonaRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\DataBase\\Connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\DI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompositionRoot\\DI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompositionRoot\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompositionRoot\\CompositionRoot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\PersonasRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\PersonasRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -51,23 +159,374 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Personas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:07:19.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Personas\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:07:11.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Personas\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:07:02.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Personas\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:06:43.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mostrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Personas\\Mostrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:06:25.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Departamentos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:06:03.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Departamentos\\Crear.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:05:51.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Departamentos\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:05:40.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Departamentos\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:05:31.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mostrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Views\\Departamentos\\Mostrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T13:05:21.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Controllers\\DepartamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:03:21.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Ej3_CRUDPersonas\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Ej3_CRUDPersonas\\Controllers\\PersonaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:03:06.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartamentoRepositoryUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\DepartamentoRepositoryUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\DepartamentoRepositoryUseCase.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\DepartamentoRepositoryUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCases\\DepartamentoRepositoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:02:21.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonaRepositoryUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\PersonaRepositoryUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCases\\PersonaRepositoryUseCase.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\UseCases\\PersonaRepositoryUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCases\\PersonaRepositoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:02:11.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IDepartamentoRepositoryUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\UseCases\\IDepartamentoRepositoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:59:38.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPersonaRepositoryUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\UseCases\\IPersonaRepositoryUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:59:14.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IDepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:58:42.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PersonaConNombreDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConNombreDepartamento.cs",
+              "RelativeDocumentMoniker": "Domain\\dto\\PersonaConNombreDepartamento.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConNombreDepartamento.cs",
+              "RelativeToolTip": "Domain\\dto\\PersonaConNombreDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:58:06.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PersonaConListadoDepartamento.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConListadoDepartamento.cs",
+              "RelativeDocumentMoniker": "Domain\\dto\\PersonaConListadoDepartamento.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\dto\\PersonaConListadoDepartamento.cs",
+              "RelativeToolTip": "Domain\\dto\\PersonaConListadoDepartamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:57:56.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Departamento.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Departamento.cs",
+              "RelativeToolTip": "Domain\\Entities\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:57:30.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartamentoRepositoryAzure.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryAzure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:54:27.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepartamentoRepositoryEmpty.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepositoryEmpty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:54:07.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DepartamentoRepository100.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository100.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:53:56.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepartamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosDepartamento\\DepartamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:53:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosPersona\\PersonaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:51:24.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PersonaRepository100.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosPersona\\PersonaRepository100.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:50:52.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PersonaRepositoryEmpty.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryEmpty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T12:50:33.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "IPersonaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IPersonaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T21:34:10.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 28,
               "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Entities\\Persona.cs",
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAswIUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +535,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 31,
               "Title": "CompositionRoot.csproj",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeDocumentMoniker": "CompositionRoot\\CompositionRoot.csproj",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\CompositionRoot.csproj",
               "RelativeToolTip": "CompositionRoot\\CompositionRoot.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -89,12 +548,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DI.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\DI.cs",
-              "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\DI.cs",
-              "RelativeToolTip": "CompositionRoot\\DI.cs",
+              "DocumentIndex": 30,
+              "Title": "container.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\container.cs",
+              "RelativeDocumentMoniker": "CompositionRoot\\container.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\CompositionRoot\\container.cs",
+              "RelativeToolTip": "CompositionRoot\\container.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T13:12:46.58Z",
@@ -102,11 +561,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 29,
               "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs",
               "RelativeDocumentMoniker": "Data\\DataBase\\Connection.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\DataBase\\Connection.cs",
               "RelativeToolTip": "Data\\DataBase\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,12 +574,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonasRepositoryAzure.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "RelativeDocumentMoniker": "Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\PersonasRepositoryAzure.cs",
-              "RelativeToolTip": "Data\\Repositories\\PersonasRepositoryAzure.cs",
+              "DocumentIndex": 32,
+              "Title": "PersonaRepositoryAzure.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs",
+              "RelativeToolTip": "Data\\Repositories\\RepositoriosPersona\\PersonaRepositoryAzure.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T13:30:49.609Z",
@@ -128,11 +587,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 33,
               "Title": "Data.csproj",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Data.csproj",
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -141,11 +600,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 34,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs",
               "RelativeDocumentMoniker": "Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Data\\Class1.cs",
               "RelativeToolTip": "Data\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,11 +613,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 35,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 8\\Ej3_CRUDPersonas\\Domain\\Class1.cs",
               "RelativeToolTip": "Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
