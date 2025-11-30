@@ -20,27 +20,18 @@ namespace Domain.Entities
 
         #endregion
 
-        /// <summary>
-        /// Constructor de la clase persona con todos sus atributos
-        /// </summary>
-        /// <param name="id"></param>
-        /// <param name="nombre"></param>
-        /// <param name="apellidos"></param>
-        /// <param name="edad"></param>
         public Persona(int id, string nombre, string apellidos, int edad, DateTime fechaNacimiento, string direccion, string telefono)
         {
-            this._id = id;
-            this._nombre = nombre;
-            this._apellidos = apellidos;
-            this._edad = edad;
-            this._fechaNacimiento = fechaNacimiento;
-            this._direccion = direccion;
-            this._telefono = telefono;
+            _id = id;
+            _nombre = nombre;
+            _apellidos = apellidos;
+            _edad = edad;
+            _fechaNacimiento = fechaNacimiento;
+            _direccion = direccion;
+            _telefono = telefono;
         }
 
-        /// <summary>
-        /// Constructor de la clase persona vacío
-        /// </summary>
+
         public Persona() { }
 
         #region GETTERS Y SETTERS
