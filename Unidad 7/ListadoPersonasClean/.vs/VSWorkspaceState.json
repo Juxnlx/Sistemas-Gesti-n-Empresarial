@@ -4,8 +4,9 @@
     "\\Data",
     "\\Data\\DataBase",
     "\\Domain",
-    "\\Domain\\Entities"
+    "\\Domain\\Entities",
+    "\\UI"
   ],
-  "SelectedNode": "\\Data\\DataBase\\Connection.cs",
+  "SelectedNode": "\\Domain\\Entities\\Persona.cs",
   "PreviewInSolutionExplorer": false
 }
