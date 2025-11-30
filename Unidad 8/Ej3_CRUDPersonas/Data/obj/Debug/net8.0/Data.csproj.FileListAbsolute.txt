@@ -14,3 +14,6 @@ C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\Data.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Data\obj\Debug\net8.0\Data.pdb

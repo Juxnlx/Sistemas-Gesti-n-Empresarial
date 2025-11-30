@@ -87,3 +87,6 @@ C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\Ej3_CRUDPersonas.pdb
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\Ej3_CRUDPersonas.genruntimeconfig.cache
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\ref\Ej3_CRUDPersonas.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\Ej3_CRUDPersonas.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\refint\Ej3_CRUDPersonas.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\Ej3_CRUDPersonas\obj\Debug\net8.0\Ej3_CRUDPersonas.pdb

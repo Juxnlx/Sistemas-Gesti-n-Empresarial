@@ -16,3 +16,6 @@ C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\refint\CompositionRoot.dll
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\CompositionRoot.pdb
 C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\ref\CompositionRoot.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\CompositionRoot.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\refint\CompositionRoot.dll
+C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 8\Ej3_CRUDPersonas\CompositionRoot\obj\Debug\net8.0\CompositionRoot.pdb

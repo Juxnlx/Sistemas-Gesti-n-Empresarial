@@ -1,0 +1,19 @@
+@model Domain.DTOs.PersonaConNombreDepartamento
+
+@{
+    ViewData["Title"] = "Detalles de Persona";
+}
+
+<h2>Detalles de Persona</h2>
+
+<div>
+    <p><strong>Nombre:</strong> @Model.persona.Nombre</p>
+    <p><strong>Apellidos:</strong> @Model.persona.Apellidos</p>
+    <p><strong>Teléfono:</strong> @Model.persona.Telefono</p>
+    <p><strong>Dirección:</strong> @Model.persona.Direccion</p>
+    <p><strong>Fecha de Nacimiento:</strong> @Model.persona.FechaNacimiento.ToString("yyyy-MM-dd")</p>
+    <p><strong>Departamento:</strong> @Model.nombreDepartamento</p>
+    <p><strong>Foto:</strong> <img src="@Model.persona.Foto" alt="Foto" width="100" height="100" /></p>
+</div>
+
+<a asp-action="Mostrar" class="btn btn-primary">Volver</a>

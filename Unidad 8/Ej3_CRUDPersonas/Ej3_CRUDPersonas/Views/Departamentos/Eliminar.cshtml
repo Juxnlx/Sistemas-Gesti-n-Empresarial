@@ -1,0 +1,18 @@
+@model Domain.Entities.Departamento
+
+@{
+    ViewData["Title"] = "Eliminar Departamento";
+}
+
+<h2>Eliminar Departamento</h2>
+
+<h4>¿Estás seguro de que quieres eliminar este departamento?</h4>
+<div>
+    <p><strong>Nombre:</strong> @Model.nombre</p>
+</div>
+
+<form asp-action="EliminarPost" method="post">
+    <input type="hidden" asp-for="ID" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Mostrar" class="btn btn-secondary">Cancelar</a>
+</form>

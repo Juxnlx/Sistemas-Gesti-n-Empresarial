@@ -1,0 +1,16 @@
+@model Domain.Entities.Departamento
+
+@{
+    ViewData["Title"] = "Crear Departamento";
+}
+
+<h2>Crear Departamento</h2>
+
+<form asp-action="Crear" method="post">
+    <div class="form-group">
+        <label>Nombre</label>
+        <input asp-for="nombre" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Crear</button>
+    <a asp-action="Mostrar" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,31 @@
+@model List<Domain.Entities.Departamento>
+
+    @{
+    ViewData["Title"] = "Listado de Departamentos";
+    }
+
+    <h2>Listado de Departamentos</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var departamento in Model)
+        {
+            <tr>
+                <td>@departamento.nombre</td>
+                <td>
+                    <a asp-action="Details" asp-route-idDepartamento="@departamento.ID">Detalles</a> |
+                    <a asp-action="Editar" asp-route-idDepartamento="@departamento.ID">Editar</a> |
+                    <a asp-action="Eliminar" asp-route-idDepartamento="@departamento.ID">Eliminar</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+    <a asp-action="Crear" class="btn btn-primary">Crear Nuevo Departamento</a>
