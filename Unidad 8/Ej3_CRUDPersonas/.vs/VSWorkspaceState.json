@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ej3_CRUDPersonas",
-    "\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas",
-    "\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views",
-    "\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas"
+    "\\Domain",
+    "\\Domain\\dto"
   ],
-  "SelectedNode": "\\Ej3_CRUDPersonas\\Ej3_CRUDPersonas\\Views\\Personas\\Index.cshtml",
+  "SelectedNode": "\\Ej3_CRUDPersonas.sln",
   "PreviewInSolutionExplorer": false
 }
