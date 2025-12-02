@@ -4,26 +4,38 @@ using Microsoft.Data.SqlClient;
 using Data.DataBase;
 
 namespace Data.Repositories
+
 {
     // Implementa IPersonaRepository
     public class PersonaRepositoryAzure : IPersonaRepository
     {
         #region ListadoPersonas
-       
+
+        // Devuelve todas las personas de la base de datos.
         public List<clsPersona> GetAll()
         {
+            // Lista vacia para almaecenar las personas.
             var personas = new List<clsPersona>();
+            // Obtención de la cadena de conexión
             string connectionString = clsConnection.GetConnectionString(); // Uso de la clase estática
-            string sql = "SELECT ID, Nombre, Apellidos, Telefono, Direccion, FechaNacimiento, IDDepartamento FROM Personas";
+            // Consulta que trae todos los campos de la tabla Personas.
+            String sql = "SELECT ID, Nombre, Apellidos, Telefono, Direccion, FechaNacimiento, IDDepartamento FROM Personas";
 
+            // Crea la conexión a la base de datos.
             using (var connection = new SqlConnection(connectionString))
+            // Crea el comando SQL.
             using (var command = new SqlCommand(sql, connection))
             {
+                // Abre la conexión.
                 connection.Open();
+
+                // Ejecuta el comando y obtiene un lector de datos.
                 using (var reader = command.ExecuteReader())
                 {
+                    // Lee cada fila devuelta por la consulta.
                     while (reader.Read())
                     {
+                        // Crea una nueva instancia de clsPersona y la añade a la lista.
                         personas.Add(new clsPersona
                         {
                             ID = reader.GetInt32(0),

@@ -1,5 +1,4 @@
-﻿
-namespace Data.DataBase
+﻿namespace Data.DataBase
 {
     public class clsConnection
     {
@@ -9,7 +8,7 @@ namespace Data.DataBase
         /// <returns>Todos los datos del servidor</returns>
         public static string GetConnectionString()
         {
-            return "server=jlbarrionuevo.database.windows.net;database=PersonasDB;uid=prueba;pwd=.abcd1234!;trustServerCertificate = true;";
+            return "server=jlbarrionuevo.database.windows.net;database=PersonasDB;uid=prueba;pwd=abcd1234!;trustServerCertificate = true;";
         }
     }
 }

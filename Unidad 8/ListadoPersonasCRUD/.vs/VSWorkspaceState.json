@@ -3,8 +3,9 @@
     "",
     "\\ListadoPersonasLLRM",
     "\\ListadoPersonasLLRM\\UI",
-    "\\ListadoPersonasLLRM\\UI\\Controllers"
+    "\\ListadoPersonasLLRM\\UI\\Controllers",
+    "\\ListadoPersonasLLRM\\UI\\Controllers\\API"
   ],
-  "SelectedNode": "\\ListadoPersonasLLRM\\ListadoPersonasClean.sln",
+  "SelectedNode": "\\ListadoPersonasLLRM\\UI\\Controllers\\API\\PersonasController.cs",
   "PreviewInSolutionExplorer": false
 }
