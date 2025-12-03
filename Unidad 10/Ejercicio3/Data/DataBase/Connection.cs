@@ -37,10 +37,10 @@ namespace Data.DataBase
         #region CONSTRUCTORES
         public Connection()
         {
-            this.server = "montero.database.windows.net";
+            this.server = "jlbarrionuevo.database.windows.net";
             this.dataBase = "PersonaDB";
             this.user = "prueba";
-            this.pass = ".1234abcde";
+            this.pass = "abcd1234!";
         }
         //Con parámetros por si quisiera cambiar las conexiones
         public Connection(String server, String database, String user, String pass)

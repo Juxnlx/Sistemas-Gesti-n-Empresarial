@@ -31,7 +31,7 @@ namespace UI.API
             try
             {
 
-                listadoCompleto = _casoDeUsoPersona.get;
+                listadoCompleto = _casoDeUsoPersona.getListaPersonas();
                 if (listadoCompleto.Count() == 0)
                 {
                     salida = NoContent();
