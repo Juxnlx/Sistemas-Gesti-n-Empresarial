@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Domain\\UseCases"
+    "\\Data",
+    "\\Data\\Repositories",
+    "\\Data\\Repositories\\RepositoriosDepartamentos",
+    "\\Data\\Repositories\\RepositoriosPersona"
   ],
   "SelectedNode": "\\Ejercicio3.sln",
   "PreviewInSolutionExplorer": false
