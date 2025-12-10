@@ -4,7 +4,9 @@
     "\\Data",
     "\\Data\\Repositories",
     "\\Data\\Repositories\\RepositoriosDepartamentos",
-    "\\Data\\Repositories\\RepositoriosPersona"
+    "\\Data\\Repositories\\RepositoriosPersona",
+    "\\Ejercicio3",
+    "\\Ejercicio3\\Controllers"
   ],
   "SelectedNode": "\\Ejercicio3.sln",
   "PreviewInSolutionExplorer": false
