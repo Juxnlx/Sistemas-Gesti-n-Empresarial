@@ -38,7 +38,7 @@ namespace Data.DataBase
         public Connection()
         {
             this.server = "jlbarrionuevo.database.windows.net";
-            this.dataBase = "PersonaDB";
+            this.dataBase = "PersonasDB";
             this.user = "prueba";
             this.pass = "abcd1234!";
         }
