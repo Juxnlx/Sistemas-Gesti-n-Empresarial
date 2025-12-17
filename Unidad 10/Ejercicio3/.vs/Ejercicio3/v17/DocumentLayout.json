@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D9E6C1-846A-48AC-B62C-D33C25EDFF93}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\ejercicio3\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
@@ -47,18 +47,17 @@
               "RelativeToolTip": "Ejercicio3\\Controllers\\PersonaController.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAwwGMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T12:53:18.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T12:53:18.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
               "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Domain\\Entities\\Persona.cs",
               "RelativeToolTip": "Domain\\Entities\\Persona.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAYwDIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T12:44:53.546Z",
               "EditorCaption": ""
