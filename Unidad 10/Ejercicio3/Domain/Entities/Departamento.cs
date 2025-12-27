@@ -1,45 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
+    [Table("Departamentos")]
     public class Departamento
     {
-        //Atributos privados
+        #region ATRIBUTOS
         private int _id;
         private string _nombre;
+        #endregion
 
-        //Constructor vacío
-        public Departamento()
-        {
-        }
-
-        //Constructor completo
+        #region CONSTRUCTORES
+        /// <summary>
+        /// Constructor con todos los atributos de la clase
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
         public Departamento(int id, string nombre)
         {
             _id = id;
             _nombre = nombre;
         }
-
-        //Propiedades
-
-        public int Id
+        /// <summary>
+        /// Constructor vacío
+        /// </summary>
+        public Departamento()
         {
-            get { return _id; }
-            set { _id = value; }
+            _id = 0;
+            _nombre = "";
+        }
+        #endregion
+
+        #region GETTERS Y SETTERS
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("ID")]
+        public int ID
+        {
+            get
+            {
+                return _id;
+            }
+            set
+            {
+                _id = value;
+            }
         }
 
-        [Required(ErrorMessage = "El nombre del departamento es obligatorio")]
-        [Display(Name = "Nombre del departamento")]
-        [MaxLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres")]
+        [Required]
+        [StringLength(30)]
+        [Column("Nombre")]
         public string Nombre
         {
-            get { return _nombre; }
-            set { _nombre = value; }
+            get
+            {
+                return _nombre;
+            }
+            set
+            {
+                _nombre = value;
+            }
         }
+        #endregion
     }
 }

@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain.Entities
 {
+    [Table("Personas")]
     public class Persona
     {
-        //Atributos privados
+        #region ATRIBUTOS PRIVADOS
         private int _id;
         private string _nombre;
         private string _apellidos;
@@ -17,25 +19,19 @@ namespace Domain.Entities
         private DateTime _fechaNacimiento;
         private string _direccion;
         private string _telefono;
-        private int _departamentoId;
+        private int _idDepartamento;
         private string _foto;
+        #endregion
 
-        //Constructor vacío (NECESARIO para MVC y ModelBinder)
-        public Persona()
-        {
-        }
-
-        //Constructor completo
-        public Persona(
-            int id,
-            string nombre,
-            string apellidos,
-            int edad,
-            DateTime fechaNacimiento,
-            string direccion,
-            string telefono,
-            int departamentoId,
-            string foto)
+        #region CONSTRUCTOR
+        /// <summary>
+        /// Constructor de la clase persona con todos sus atributos
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nombre"></param>
+        /// <param name="apellidos"></param>
+        /// <param name="edad"></param>
+        public Persona(int id, string nombre, string apellidos, int edad, DateTime fechaNacimiento, string direccion, string telefono, int idDepartamento, string foto)
         {
             _id = id;
             _nombre = nombre;
@@ -44,83 +40,153 @@ namespace Domain.Entities
             _fechaNacimiento = fechaNacimiento;
             _direccion = direccion;
             _telefono = telefono;
-            _departamentoId = departamentoId;
+            _idDepartamento = idDepartamento;
             _foto = foto;
         }
-
-        //Propiedades (GETTERS Y SETTERS)
-
-        public int Id
+        /// <summary>
+        /// Constructor de la clase persona vacío
+        /// </summary>
+        public Persona()
         {
-            get { return _id; }
-            set { _id = value; }
+            _id = 0;
+            _nombre = "";
+            _apellidos = "";
+            _edad = 0;
+            _direccion = "";
+            _telefono = "";
+            _idDepartamento = 0;
+            _foto = "";
+        }
+        #endregion
+
+        #region GETTERS Y SETTERS
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("ID")]
+        public int ID
+        {
+            get
+            {
+                return _id;
+            }
+            set
+            {
+                _id = value;
+            }
         }
 
-        [Required(ErrorMessage = "El nombre es obligatorio")]
-        [Display(Name = "Nombre")]
-        [StringLength(50, ErrorMessage = "El nombre no puede superar los 50 caracteres")]
+        [Required]
+        [StringLength(30)]
+        [Column("Nombre")]
         public string Nombre
         {
-            get { return _nombre; }
-            set { _nombre = value; }
+            get
+            {
+                return _nombre;
+            }
+            set
+            {
+                _nombre = value;
+            }
         }
 
-        [Required(ErrorMessage = "Los apellidos son obligatorios")]
-        [Display(Name = "Apellidos")]
-        [MaxLength(100, ErrorMessage = "Los apellidos no pueden superar los 100 caracteres")]
+        [Required]
+        [StringLength(60)]
+        [Column("Apellidos")]
         public string Apellidos
         {
-            get { return _apellidos; }
-            set { _apellidos = value; }
+            get
+            {
+                return _apellidos;
+            }
+            set
+            {
+                _apellidos = value;
+            }
         }
 
-        [Display(Name = "Edad")]
-        [Range(0, 120, ErrorMessage = "La edad debe estar entre 0 y 120")]
+        [NotMapped]
         public int Edad
         {
-            get { return _edad; }
-            set { _edad = value; }
+            get
+            {
+                return _edad;
+            }
+            set
+            {
+                _edad = value;
+            }
         }
 
-        [DataType(DataType.Date)]
-        [Display(Name = "Fecha de nacimiento")]
-        [DisplayFormat(
-            DataFormatString = "{0:dd-MM-yyyy}",
-            ApplyFormatInEditMode = true)]
+        [Column("FechaNacimiento")]
         public DateTime FechaNacimiento
         {
-            get { return _fechaNacimiento; }
-            set { _fechaNacimiento = value; }
+            get
+            {
+                return _fechaNacimiento;
+            }
+            set
+            {
+                _fechaNacimiento = value;
+            }
         }
 
-        [Display(Name = "Dirección")]
+        [StringLength(60)]
+        [Column("Direccion")]
         public string Direccion
         {
-            get { return _direccion; }
-            set { _direccion = value; }
+            get
+            {
+                return _direccion;
+            }
+            set
+            {
+                _direccion = value;
+            }
         }
 
-        [Display(Name = "Teléfono")]
-        [Phone(ErrorMessage = "El formato del teléfono no es correcto")]
+        [StringLength(15)]
+        [Column("Telefono")]
         public string Telefono
         {
-            get { return _telefono; }
-            set { _telefono = value; }
+            get
+            {
+                return _telefono;
+            }
+            set
+            {
+                _telefono = value;
+            }
         }
 
-        [Required(ErrorMessage = "El departamento es obligatorio")]
-        [Display(Name = "Departamento")]
-        public int DepartamentoId
-        {
-            get { return _departamentoId; }
-            set { _departamentoId = value; }
-        }
-
-        [Display(Name = "Foto")]
+        [StringLength(255)]
+        [Column("Foto")]
         public string Foto
         {
-            get { return _foto; }
-            set { _foto = value; }
+            get
+            {
+                return _foto;
+            }
+            set
+            {
+                _foto = value;
+            }
         }
+
+        [Required]
+        [Column("IDDepartamento")]
+        [ForeignKey("Departamento")]
+        public int IDDepartamento
+        {
+            get
+            {
+                return _idDepartamento;
+            }
+            set
+            {
+                _idDepartamento = value;
+            }
+        }
+        #endregion
     }
 }
