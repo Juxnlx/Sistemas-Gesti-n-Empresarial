@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\ejercicio3\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|solutionrelative:ejercicio3\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\ejercicio3\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|solutionrelative:ejercicio3\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,37 +38,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
-              "RelativeDocumentMoniker": "Data\\DataBase\\Connection.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
-              "RelativeToolTip": "Data\\DataBase\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T18:56:58.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs",
-              "RelativeDocumentMoniker": "Ejercicio3\\API\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs",
-              "RelativeToolTip": "Ejercicio3\\API\\PersonaController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "DepartamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\DepartamentoController.cs",
+              "RelativeDocumentMoniker": "Ejercicio3\\API\\DepartamentoController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\DepartamentoController.cs",
+              "RelativeToolTip": "Ejercicio3\\API\\DepartamentoController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwJ0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T16:11:14.497Z",
+              "WhenOpened": "2026-01-05T16:26:38.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
+              "RelativeDocumentMoniker": "Data\\DataBase\\Connection.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
+              "RelativeToolTip": "Data\\DataBase\\Connection.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T18:56:58.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Ejercicio3\\API\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs",
+              "RelativeToolTip": "Ejercicio3\\API\\PersonaController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJ8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T16:11:14.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Domain\\Entities\\Departamento.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Departamento.cs",
@@ -76,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Domain\\Entities\\Persona.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
@@ -88,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PersonaController.cs",
               "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\Controllers\\PersonaController.cs",
               "RelativeDocumentMoniker": "Ejercicio3\\Controllers\\PersonaController.cs",
@@ -100,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PersonasRepositoryAzure.cs",
               "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\Repositories\\RepositoriosPersona\\PersonasRepositoryAzure.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\RepositoriosPersona\\PersonasRepositoryAzure.cs",

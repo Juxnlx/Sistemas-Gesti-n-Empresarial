@@ -1,35 +1,32 @@
-﻿using Domain.DTOs;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Interfaces.UseCase;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace UI.API
 {
-
     [Route("api/[controller]")]
     [ApiController]
-    public class PersonaController : ControllerBase
+    public class DepartamentoController : ControllerBase
     {
-        private readonly IPersonaRepositoryUseCase _casoDeUsoPersona;
+        private readonly IDepartamentoRepositoryUseCase _casoDeUsoDepartamento;
 
-        public PersonaController(IPersonaRepositoryUseCase casoDeUsoP)
+        public DepartamentoController(IDepartamentoRepositoryUseCase casoDeUsoD)
         {
-            _casoDeUsoPersona = casoDeUsoP;
+            _casoDeUsoDepartamento = casoDeUsoD;
         }
 
-        // GET: api/<PersonasController>
+        // GET: api/<DepartamentoController>
         [HttpGet]
         public IActionResult Get()
         {
             IActionResult salida;
-            List<Persona> listadoCompleto = new List<Persona>();
+            List<Departamento> listadoCompleto = new List<Departamento>();
 
             try
             {
-                listadoCompleto = _casoDeUsoPersona.getListaPersonas();
-                if (listadoCompleto.Count() == 0)
+                listadoCompleto = _casoDeUsoDepartamento.getListaDepartamento();
+
+                if (listadoCompleto.Count == 0)
                 {
                     salida = NoContent();
                 }
@@ -42,31 +39,31 @@ namespace UI.API
             {
                 salida = BadRequest();
             }
-            return salida;
 
+            return salida;
         }
 
-        // GET api/<PersonaController>/5
+        // GET api/<DepartamentoController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             IActionResult salida;
-            Persona persona;
+            Departamento departamento;
 
             try
             {
-                persona = _casoDeUsoPersona.getPersonaPorId(id);
+                departamento = _casoDeUsoDepartamento.getDepartamentoPorId(id);
 
-                if (persona == null)
+                if (departamento == null)
                 {
                     salida = NotFound();
                 }
                 else
                 {
-                    salida = Ok(persona);
+                    salida = Ok(departamento);
                 }
             }
-            catch (Exception e)
+            catch
             {
                 salida = BadRequest();
             }
@@ -74,27 +71,27 @@ namespace UI.API
             return salida;
         }
 
-
-        // POST api/<PersonaController>
+        // POST api/<DepartamentoController>
         [HttpPost]
-        public IActionResult Post(Persona persona)
+        public IActionResult Post(Departamento departamento)
         {
             IActionResult salida;
-            int numFilasAfectadas = 0;
+            int filasAfectadas = 0;
 
             try
             {
-                numFilasAfectadas = _casoDeUsoPersona.crearPersona(persona);
-                if (numFilasAfectadas == 0)
+                filasAfectadas = _casoDeUsoDepartamento.crearDepartamento(departamento);
+
+                if (filasAfectadas == 0)
                 {
-                    salida = NotFound();
+                    salida = BadRequest();
                 }
                 else
                 {
                     salida = Ok();
                 }
             }
-            catch (Exception e)
+            catch
             {
                 salida = BadRequest();
             }
@@ -102,17 +99,18 @@ namespace UI.API
             return salida;
         }
 
-        // PUT api/<PersonaController>/5
+        // PUT api/<DepartamentoController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, Persona persona)
+        public IActionResult Put(int id, Departamento departamento)
         {
             IActionResult salida;
-            int numFilasAfectadas = 0;
+            int filasAfectadas = 0;
 
             try
             {
-                numFilasAfectadas = _casoDeUsoPersona.actualizarPersona(id, persona);
-                if (numFilasAfectadas == 0)
+                filasAfectadas = _casoDeUsoDepartamento.actualizarDepartamento(id, departamento);
+
+                if (filasAfectadas == 0)
                 {
                     salida = NotFound();
                 }
@@ -121,7 +119,7 @@ namespace UI.API
                     salida = Ok();
                 }
             }
-            catch (Exception e)
+            catch
             {
                 salida = BadRequest();
             }
@@ -129,17 +127,18 @@ namespace UI.API
             return salida;
         }
 
-        // DELETE api/<PersonaController>/5
+        // DELETE api/<DepartamentoController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             IActionResult salida;
-            int numFilasAfectadas = 0;
+            int filasAfectadas = 0;
 
             try
             {
-                numFilasAfectadas = _casoDeUsoPersona.eliminarPersona(id);
-                if (numFilasAfectadas == 0)
+                filasAfectadas = _casoDeUsoDepartamento.eliminarDepartamento(id);
+
+                if (filasAfectadas == 0)
                 {
                     salida = NotFound();
                 }
@@ -148,13 +147,12 @@ namespace UI.API
                     salida = Ok();
                 }
             }
-            catch (Exception e)
+            catch
             {
                 salida = BadRequest();
             }
 
             return salida;
         }
-
     }
 }
