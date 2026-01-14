@@ -5,8 +5,8 @@ import { Router, RouterLink } from '@angular/router';
   selector: 'app-tabla-personas',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './tabla-personas.component.html',
-  styleUrl: './tabla-personas.component.css'
+  templateUrl: './tabla-personas.html',
+  styleUrl: './tabla-personas.css'
 })
 export class TablaPersonasComponent {
   
@@ -15,5 +15,4 @@ export class TablaPersonasComponent {
   abrirListado(): void {
     this.router.navigate(['/listado']);
   }
-  
 }

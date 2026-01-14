@@ -5,8 +5,8 @@ import { Router } from '@angular/router';
   selector: 'app-formulario-persona',
   standalone: true,
   imports: [],
-  templateUrl: './formulario-persona.component.html',
-  styleUrl: './formulario-persona.component.css'
+  templateUrl: './formulario-persona.html',
+  styleUrl: './formulario-persona.css'
 })
 export class FormularioPersonaComponent {
   
@@ -19,5 +19,4 @@ export class FormularioPersonaComponent {
   volverATabla(): void {
     this.router.navigate(['/tabla']);
   }
-  
 }

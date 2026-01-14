@@ -1,20 +1,21 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ListadoPersonasComponent } from './listado-personas';
+import { provideRouter } from '@angular/router';
 
-import { ListadoPersonas } from './listado-personas';
-
-describe('ListadoPersonas', () => {
-  let component: ListadoPersonas;
-  let fixture: ComponentFixture<ListadoPersonas>;
+describe('ListadoPersonasComponent', () => {
+  let component: ListadoPersonasComponent;
+  let fixture: ComponentFixture<ListadoPersonasComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ListadoPersonas]
+      imports: [ListadoPersonasComponent],
+      providers: [provideRouter([])]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ListadoPersonas);
+    fixture = TestBed.createComponent(ListadoPersonasComponent);
     component = fixture.componentInstance;
-    await fixture.whenStable();
+    fixture.detectChanges();
   });
 
   it('should create', () => {

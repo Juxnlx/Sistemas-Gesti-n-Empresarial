@@ -1,20 +1,21 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TablaPersonasComponent } from './tabla-personas';
+import { provideRouter } from '@angular/router';
 
-import { TablaPersonas } from './tabla-personas';
-
-describe('TablaPersonas', () => {
-  let component: TablaPersonas;
-  let fixture: ComponentFixture<TablaPersonas>;
+describe('TablaPersonasComponent', () => {
+  let component: TablaPersonasComponent;
+  let fixture: ComponentFixture<TablaPersonasComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TablaPersonas]
+      imports: [TablaPersonasComponent],
+      providers: [provideRouter([])]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TablaPersonas);
+    fixture = TestBed.createComponent(TablaPersonasComponent);
     component = fixture.componentInstance;
-    await fixture.whenStable();
+    fixture.detectChanges();
   });
 
   it('should create', () => {

@@ -4,7 +4,7 @@ import { FormularioPersonaComponent } from './components/formulario-persona/form
 import { ListadoPersonasComponent } from './components/listado-personas/listado-personas';
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/tabla', pathMatch: 'full' },  // Por defecto carga la tabla
+  { path: '', redirectTo: '/tabla', pathMatch: 'full' },
   { path: 'tabla', component: TablaPersonasComponent },
   { path: 'formulario', component: FormularioPersonaComponent },
   { path: 'listado', component: ListadoPersonasComponent }
