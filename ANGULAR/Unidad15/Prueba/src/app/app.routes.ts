@@ -1,0 +1,11 @@
+import { Routes } from '@angular/router';
+import { TablaPersonasComponent } from './components/tabla-personas/tabla-personas';
+import { FormularioPersonaComponent } from './components/formulario-persona/formulario-persona';
+import { ListadoPersonasComponent } from './components/listado-personas/listado-personas';
+
+export const routes: Routes = [
+  { path: '', redirectTo: '/tabla', pathMatch: 'full' },  // Por defecto carga la tabla
+  { path: 'tabla', component: TablaPersonasComponent },
+  { path: 'formulario', component: FormularioPersonaComponent },
+  { path: 'listado', component: ListadoPersonasComponent }
+];
