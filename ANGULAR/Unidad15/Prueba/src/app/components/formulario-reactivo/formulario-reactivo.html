@@ -1,0 +1,77 @@
+<h2>Formulario Reactivo</h2>
+
+<form [formGroup]="formulario">
+  <div class="form-group">
+    <label for="nombre">Nombre:</label>
+    <input 
+      type="text" 
+      id="nombre" 
+      formControlName="nombre"
+      placeholder="Escribe tu nombre"
+    >
+    
+    <div class="error-messages">
+      <span 
+        class="error" 
+        *ngIf="formulario.controls['nombre'].errors?.['required'] && 
+               (formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)">
+        El nombre es obligatorio
+      </span>
+      <span 
+        class="error" 
+        *ngIf="formulario.controls['nombre'].errors?.['minLength'] && 
+               (formulario.controls['nombre'].dirty || formulario.controls['nombre'].touched)">
+        El nombre debe tener al menos 3 caracteres
+      </span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="apellidos">Apellidos:</label>
+    <input 
+      type="text" 
+      id="apellidos" 
+      formControlName="apellidos"
+      placeholder="Escribe tus apellidos"
+    >
+    
+    <div class="error-messages">
+      <span 
+        class="error" 
+        *ngIf="formulario.controls['apellidos'].errors?.['required'] && 
+               (formulario.controls['apellidos'].dirty || formulario.controls['apellidos'].touched)">
+        Los apellidos son obligatorios
+      </span>
+      <span 
+        class="error" 
+        *ngIf="formulario.controls['apellidos'].errors?.['minLength'] && 
+               (formulario.controls['apellidos'].dirty || formulario.controls['apellidos'].touched)">
+        Los apellidos deben tener al menos 3 caracteres
+      </span>
+    </div>
+  </div>
+
+  <div class="button-group">
+    <button 
+      type="button" 
+      (click)="saluda()" 
+      [disabled]="formulario.invalid"
+      class="btn-primary">
+      Saludar
+    </button>
+    <button 
+      type="button" 
+      (click)="volverATabla()"
+      class="btn-secondary">
+      Volver a la tabla
+    </button>
+  </div>
+</form>
+
+<div class="form-status">
+  <p><strong>Estado del formulario:</strong> 
+    <span [class.valid]="formulario.valid" [class.invalid]="formulario.invalid">
+      {{ formulario.valid ? 'VÁLIDO ✅' : 'INVÁLIDO ❌' }}
+    </span>
+  </p>
+</div>
