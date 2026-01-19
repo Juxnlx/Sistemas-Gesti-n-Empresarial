@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\",
+  "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\ejercicio3\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|solutionrelative:ejercicio3\\api\\departamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +30,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{048095AD-8EB7-4CC7-A640-443F2B0AB56E}|Data\\Data.csproj|c:\\users\\juanl\\onedrive\\escritorio\\2\u00BA daw\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\data\\repositories\\repositoriospersona\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{048095AD-8EB7-4CC7-A640-443F2B0AB56E}|Data\\Data.csproj|solutionrelative:data\\repositories\\repositoriospersona\\personasrepositoryazure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{048095AD-8EB7-4CC7-A640-443F2B0AB56E}|Data\\Data.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BA dam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\data\\database\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{048095AD-8EB7-4CC7-A640-443F2B0AB56E}|Data\\Data.csproj|solutionrelative:data\\database\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -57,10 +62,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Connection.cs",
-              "DocumentMoniker": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
+              "DocumentMoniker": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
               "RelativeDocumentMoniker": "Data\\DataBase\\Connection.cs",
-              "ToolTip": "C:\\Users\\juanl\\OneDrive\\Escritorio\\2\u00BA DAW\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
+              "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BA DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Data\\DataBase\\Connection.cs",
               "RelativeToolTip": "Data\\DataBase\\Connection.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T18:56:58.948Z"
@@ -124,6 +130,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:57:21.468Z"
+=======
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:26:21.386Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }

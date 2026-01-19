@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
+<<<<<<< Updated upstream
   <IisApp path="C:\Users\juanl\OneDrive\Escritorio\2º DAW\Sistemas-Gesti-n-Empresarial\Unidad 10\Ejercicio3\Ejercicio3\obj\Release\net8.0\PubTmp\Out\" />
+=======
+  <IisApp path="C:\Users\jlbarrionuevo\Desktop\2º DAM\Sistemas-Gesti-n-Empresarial\Unidad 10\Ejercicio3\Ejercicio3\obj\Release\net8.0\PubTmp\Out\" />
+>>>>>>> Stashed changes
 </sitemanifest>
