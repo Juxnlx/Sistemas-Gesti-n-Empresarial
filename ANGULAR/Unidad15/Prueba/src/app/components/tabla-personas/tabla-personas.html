@@ -1,29 +1,140 @@
 <h1>Listado de Personas</h1>
-<table border="1">
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Apellidos</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Juan Luis</td>
-      <td>Barrionuevo</td>
-    </tr>
-    <tr>
-      <td>Sergio</td>
-      <td>Gonzalez</td>
-    </tr>
-    <tr>
-      <td>Roberto</td>
-      <td>Martinez</td>
-    </tr>
-  </tbody>
-</table>
 
-<div class="navigation-buttons">
-  <a routerLink="/formulario">Abrir Formulario</a>
-  <button (click)="abrirListado()">Abrir listado</button>
-  <a routerLink="/formulario-reactivo">Formulario Reactivo</a>
+<!-- Spinner de carga -->
+<div class="loading-section" *ngIf="isLoading">
+  <mat-spinner></mat-spinner>
+  <p>Cargando datos...</p>
+</div>
+
+<!-- Tabla (se muestra cuando termina de cargar) -->
+<div *ngIf="!isLoading">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Juan Luis</td>
+        <td>Barrionuevo</td>
+      </tr>
+      <tr>
+        <td>Sergio</td>
+        <td>Gonzalez</td>
+      </tr>
+      <tr>
+        <td>Roberto</td>
+        <td>Martinez</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="navigation-buttons">
+    <a routerLink="/formulario">Abrir Formulario</a>
+    <button (click)="abrirListado()">Abrir listado</button>
+    <a routerLink="/formulario-reactivo">Formulario Reactivo</a>
+  </div>
+
+  <div class="material-components-section">
+    <h2>Componentes de Angular Material</h2>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>1. Progress Spinner</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Spinner de carga circular:</p>
+        <div class="spinner-container">
+          <mat-spinner diameter="50"></mat-spinner>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>2. Radio Buttons</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Selecciona un color:</p>
+        <mat-radio-group [(ngModel)]="selectedColor" (change)="onColorChange($event.value)">
+          <mat-radio-button value="primary" class="radio-option">Azul</mat-radio-button>
+          <mat-radio-button value="accent" class="radio-option">Amarillo</mat-radio-button>
+          <mat-radio-button value="warn" class="radio-option">Rosa</mat-radio-button>
+        </mat-radio-group>
+        <p class="selection-result">Seleccionado: <strong>{{selectedColor}}</strong></p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>3. Slider</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Ajusta el valor (0-100):</p>
+        <mat-slider 
+          min="0" 
+          max="100" 
+          step="1" 
+          showTickMarks
+          discrete>
+          <input matSliderThumb [(ngModel)]="sliderValue" (input)="onSliderChange(sliderValue)">
+        </mat-slider>
+        <p class="selection-result">Valor actual: <strong>{{sliderValue}}</strong></p>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>4. Buttons</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Diferentes estilos de botones:</p>
+        <div class="button-showcase">
+          <button mat-button>Basic</button>
+          <button mat-raised-button>Raised</button>
+          <button mat-raised-button color="primary">Primary</button>
+          <button mat-raised-button color="accent">Accent</button>
+          <button mat-raised-button color="warn">Warn</button>
+          <button mat-stroked-button>Stroked</button>
+          <button mat-flat-button color="primary">Flat</button>
+          <button mat-icon-button>
+            <mat-icon>favorite</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>5. Checkboxes</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Selecciona tus preferencias:</p>
+        <div class="checkbox-group">
+          <mat-checkbox>Acepto los términos y condiciones</mat-checkbox>
+          <mat-checkbox color="primary">Quiero recibir notificaciones</mat-checkbox>
+          <mat-checkbox color="warn">Modo oscuro</mat-checkbox>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="material-card">
+      <mat-card-header>
+        <mat-card-title>6. Chips</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Etiquetas de tecnologías:</p>
+        <mat-chip-set>
+          <mat-chip>Angular</mat-chip>
+          <mat-chip color="primary" highlighted>TypeScript</mat-chip>
+          <mat-chip color="accent" highlighted>Material</mat-chip>
+          <mat-chip>HTML</mat-chip>
+          <mat-chip>CSS</mat-chip>
+        </mat-chip-set>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
 </div>

@@ -3,10 +3,23 @@ import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angula
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 
+// Imports de Angular Material
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+
 @Component({
   selector: 'app-formulario-reactivo',
   standalone: true,
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [
+    ReactiveFormsModule, 
+    CommonModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
+  ],
   templateUrl: './formulario-reactivo.html',
   styleUrl: './formulario-reactivo.css'
 })
@@ -24,11 +37,10 @@ export class FormularioReactivoComponent implements OnInit {
     this.formulario = new FormGroup({
       nombre: new FormControl('', [
         Validators.required,           
-        Validators.minLength(3)        
+        Validators.minLength(4)        
       ]),
       apellidos: new FormControl('', [
-        Validators.required,           
-        Validators.minLength(3)        
+        Validators.required,                
       ])
     });
   }
