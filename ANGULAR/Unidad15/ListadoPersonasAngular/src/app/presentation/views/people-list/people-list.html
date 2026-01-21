@@ -1,0 +1,58 @@
+<div class="container">
+  <h1 class="title">✨ Personas ✨</h1>
+
+  <!-- Caja de persona seleccionada -->
+  <div class="selected-box">
+    <p class="selected-label">Seleccionada</p>
+    <p class="selected-name">
+      {{ personaSeleccionada ? (personaSeleccionada.nombre + ' ' + personaSeleccionada.apellido) : 'Ninguna' }}
+    </p>
+  </div>
+
+  <!-- Indicador de carga -->
+  <div *ngIf="isLoading" class="loading">
+    <div class="spinner"></div>
+    <p>Cargando personas...</p>
+  </div>
+
+  <!-- Mensaje de error -->
+  <div *ngIf="errorMessage" class="error-box">
+    <p>{{ errorMessage }}</p>
+    <button (click)="cargarPersonas()" class="retry-button">Reintentar</button>
+  </div>
+
+  <!-- Lista de personas -->
+  <div *ngIf="!isLoading && !errorMessage" class="people-list">
+    
+    <!-- Mensaje cuando no hay personas -->
+    <div *ngIf="personasList.length === 0" class="empty-message">
+      <p>No hay personas 🌧️</p>
+    </div>
+
+    <!-- Tarjetas de personas -->
+    <div 
+      *ngFor="let persona of personasList"
+      class="card"
+      [class.card-selected]="estaSeleccionada(persona)"
+      (click)="seleccionarPersona(persona)">
+      
+      <!-- Avatar con inicial -->
+      <div class="avatar">
+        <span class="avatar-text">{{ getInicial(persona) }}</span>
+      </div>
+
+      <!-- Nombre completo -->
+      <div class="card-content">
+        <span class="card-name">{{ persona.nombre }} {{ persona.apellido }}</span>
+      </div>
+
+      <!-- Botón eliminar -->
+      <button 
+        class="delete-button" 
+        (click)="eliminarPersona(persona.id); $event.stopPropagation()"
+        title="Eliminar">
+        🗑️
+      </button>
+    </div>
+  </div>
+</div>
