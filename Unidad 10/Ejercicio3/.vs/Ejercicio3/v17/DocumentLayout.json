@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BADAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BADAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ejercicio3\\API\\PersonaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|c:\\users\\jlbarrionuevo\\desktop\\2\u00BAdam\\sistemas-gesti-n-empresarial\\unidad 10\\ejercicio3\\ejercicio3\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50BB3A4-8762-442C-BD10-D3A5266A2CA0}|Ejercicio3\\UI.csproj|solutionrelative:ejercicio3\\api\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Ejercicio3\\API\\PersonaController.cs",
               "ToolTip": "C:\\Users\\jlbarrionuevo\\Desktop\\2\u00BADAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\API\\PersonaController.cs",
               "RelativeToolTip": "Ejercicio3\\API\\PersonaController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T11:04:00.486Z",
               "EditorCaption": ""

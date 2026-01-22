@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "6N6r+ApcU6g=",
-=======
-  "dgSpecHash": "GFXxAaaFLBc=",
->>>>>>> Stashed changes
+  "dgSpecHash": "7Mq0+YKHxtk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jlbarrionuevo\\Desktop\\2º DAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\UI.csproj",
+  "projectFilePath": "C:\\Users\\jlbarrionuevo\\Desktop\\2ºDAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
@@ -145,5 +141,15 @@
     "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\jlbarrionuevo\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problema al leer el archivo de caché C:\\Users\\jlbarrionuevo\\Desktop\\2ºDAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\jlbarrionuevo\\Desktop\\2ºDAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\UI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\jlbarrionuevo\\Desktop\\2ºDAM\\Sistemas-Gesti-n-Empresarial\\Unidad 10\\Ejercicio3\\Ejercicio3\\UI.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
