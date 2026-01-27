@@ -1,9 +1,13 @@
+import { Injectable } from '@angular/core';
 import { Persona } from '../../domain/entities/Persona';
-import { injectable } from 'inversify';
 
-@injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class BaseAPI {
-  private readonly API_URL: string = "https://montero-hzedh8ahesg5cceh.francecentral-01.azurewebsites.net/API/";
+
+  private readonly API_URL: string =
+    "https://montero-hzedh8ahesg5cceh.francecentral-01.azurewebsites.net/API";
 
   async fetchPersonaList(): Promise<Persona[]> {
     let resultado: Persona[] = [];
@@ -21,10 +25,10 @@ export class BaseAPI {
   }
 
   private mapearPersonas(data: any[]): Persona[] {
-  return data.map((item) => {
-    const fecha = item.fechaNacimiento
-      ? new Date(item.fechaNacimiento)
-      : null;
+    return data.map((item) => {
+      const fecha = item.fechaNacimiento
+        ? new Date(item.fechaNacimiento)
+        : null;
 
       return new Persona(
         item.id,

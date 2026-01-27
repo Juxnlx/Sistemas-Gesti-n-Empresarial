@@ -10,7 +10,7 @@ import { PersonasRepository } from "../data/repositories/PersonaRepository";
 import { IRepositoryPersonas } from "../domain/interfaces/repositories/IRepositoryPersonas";
 
 // UseCases
-import { PersonaUseCase } from "../domain/usecases/UseCasePersona";
+import { PersonaUseCase } from "../domain/usecases/PersonaUseCase";
 import { IUseCasePersonas } from "../domain/interfaces/usecases/IUseCasePersonas";
 // ViewModels
 import { PeopleListVM } from "../ui/viewmodel/PeopleListVM";
